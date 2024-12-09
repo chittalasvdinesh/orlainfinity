@@ -1,0 +1,19 @@
+.contact_btn {
+        height: 46px;
+        width: 166px;
+        --tw-bg-opacity: 1;
+        background-color: rgb(154 154 154 / var(--tw-bg-opacity, 1));
+        font-family: RadikalLight;
+        font-size: 12px;
+        text-transform: uppercase;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    }
+
+@media (min-width: 1024px) {
+        .contact_btn{
+            height: 50px;
+            width: 140px;
+            font-size: 13px;
+        }
+    }

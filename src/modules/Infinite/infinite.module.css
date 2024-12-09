@@ -1,0 +1,17 @@
+.img{
+    display: block;
+    overflow: hidden;
+    backface-visibility: hidden;
+    object-fit: cover;
+    width: 375px;
+    height: 267px !important;
+
+}
+
+
+@media (min-width:1024px) {
+    .img{
+        width: 1440px;
+        height: 798px !important;
+    }   
+}
