@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
 
     return (
         <>
-
             <Header setShowMobileNavItems={setShowMobileNavItems} showmobileNavItems={showmobileNavItems} />
             <MobileHeader setShowMobileNavItems={setShowMobileNavItems} showmobileNavItems={showmobileNavItems} />
             <main>

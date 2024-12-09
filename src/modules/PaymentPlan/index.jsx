@@ -2,7 +2,7 @@ import React from 'react'
 import Style from './paymentplan.module.css'
 const PaymentPlan = () => {
     return (
-        <div className="mt-16 lg:mt-0 bg-[url('/img/paymentBg.png')] bg-no-repeat bg-cover bg-center font-[radikalLight] py-16">
+        <section className="mt-16 lg:mt-0 bg-[url('/img/paymentBg.png')] bg-no-repeat bg-cover bg-center font-[radikalLight] py-16">
             <h1 className="text-center text-[28px] lg:text-[36px]">PAYMENT PLAN</h1>
             <div className="hidden lg:grid grid-cols-5 justify-center items-center text-center lg:px-14 mt-8 gap-2">
                 <div className="border-r border-black">
@@ -165,7 +165,7 @@ const PaymentPlan = () => {
                     <p className={Style.payment_info}>Project Completion Date</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SeaAndSky = () => {
   return (
-    <div className="py-8 lg:pt-[80px] lg:pb-[130px] font-[radikalLight] flex flex-col justify-center">
+    <section className="py-8 lg:pt-[80px] lg:pb-[130px] font-[radikalLight] flex flex-col justify-center">
       <h3 className="uppercase text-center text-[#A18A6B] text-sm lg:text-base aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
         Connecting
       </h3>
@@ -16,7 +16,7 @@ const SeaAndSky = () => {
           the sand and sea below, where clarity and energy reside.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 
