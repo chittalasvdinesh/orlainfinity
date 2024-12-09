@@ -3,7 +3,7 @@ import Style from './form.module.css'
 
 const Form = () => {
   return (
-    <div id="bookingForm" className="mt-16 lg:mt-4 font-radikalLight">
+    <section id="bookingForm" className="mt-16 lg:mt-4 font-radikalLight">
       <h1 className="text-center text-[28px] lg:text-[36px] lg:pt-20">
         <span className="font-[radikalLight]">BOOK YOUR PRIVATE MEETING</span>
       </h1>
@@ -564,17 +564,6 @@ const Form = () => {
               </option>
             </select>
           </div>
-          {/* <!-- <select
-          autocomplete="off"
-          className={Style.input_element}
-          name="budget"
-          id="budget1"
-          required
-        >
-          <option className="hidden" value="" disabled selected>Budget</option>
-          <option value="Below 60M">Below 60M</option>
-          <option value="Above 60M">Above 60M</option>
-        </select> --> */}
           <select autocomplete="off" className={Style.input_element} id="preferred_method1" required="">
             <option className="hidden" value="" disabled="" selected="">
               Preferred method of contact
@@ -588,7 +577,7 @@ const Form = () => {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   )
 }
 
